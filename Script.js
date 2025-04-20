@@ -30,10 +30,17 @@ function Agradecimento() {
     window.location.href = 'Agradecimento.html';
 }
 
-
-function Games() {
-    window.location.href = 'Games.html';
+function GuerraNaEstrelas() {
+    window.location.href = 'GuerraNasEstrelas.html';
 }
+
+function AjudeChewbacca() {
+    window.location.href = 'AjudeChewbacca.html';
+
+}function Asteroides() {
+    window.location.href = 'Asteroides.html';
+}
+
 
 const imagens = document.querySelectorAll(".galeria img");
 const modal = document.getElementById("modal");
@@ -75,3 +82,21 @@ modalContent.addEventListener("mousemove", function(e) {
     
     modalContent.style.backgroundPosition = `${x * 100}% ${y * 100}%`;
 });
+
+function iniciarJogoChewbacca() {
+    document.getElementById("conteudoTela").innerHTML = `
+        <iframe src="JogoAjudeChewbacca/index.html" allowfullscreen></iframe>
+    `;
+}
+
+function iniciarJogoAsteroides() {
+    document.getElementById("conteudoTela").innerHTML = `
+        <iframe src="JogoAsteroides/index.html" allowfullscreen></iframe>
+    `;
+}
+
+function iniciarJogoGuerra() {
+    document.getElementById("conteudoTela").innerHTML = `
+        <iframe src="JogoGuerraNasEstrelas/index.html" allowfullscreen></iframe>
+    `;
+}

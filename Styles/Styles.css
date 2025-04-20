@@ -225,3 +225,51 @@ footer {
     font-family: roboto;
     src: url(/Objetos/Font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
+
+.tela-jogo {
+    width: 1000px;
+    height: 600px;
+    background-color: #1a1a1a;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    margin: 40px auto;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.botao-jogar {
+    background-color: #ffd700;
+    color: #000;
+    font-size: 1.5em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease;
+}
+
+.botao-jogar:hover {
+    background-color: #ffc400;
+    transform: scale(1.05);
+}
+
+iframe {
+    width: 1000px;
+    height: 600px;
+    border: none;
+    border-radius: 12px;
+}
+
+.tela-jogo iframe {
+    width: 1000px;
+    height: 600px;
+    border: none;
+    border-radius: 12px;
+    display: block;
+  }
+  
+  
