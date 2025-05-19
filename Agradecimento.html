@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agradecimentos</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/Galeria.css">
+    <link rel="stylesheet" href="Styles/agradecimento.css">
+    <link rel="icon" href="/Objetos/Imagens/ICON1.png">
+</head>
+
+<body>
+    <header>
+        <button class="menumobile" onclick="Menumob()">☰</button>
+        <nav class="contheader">
+            <ul id="navul" class="colocaremlinha">
+                <li class="menu">PROJETO
+                    <ul class="submenu">
+                        <li class="opcao" onclick="sobre()">SOBRE</li>
+                        <li class="opcao" onclick="Motivos()">MOTIVOS</li>
+                    </ul>
+                </li>
+                <li class="menu" onclick="galeria()">GALERIA</li>
+                <li class="menu" onclick="Equipe()">EQUIPE</li>
+                <li class="menu">PROCESSO DE CRIAÇÃO
+                    <Ul class="submenu">
+                        <li class="opcao" onclick="Estrela()">ESTRELA DA MORTE</li>
+                        <li class="opcao" onclick="Arcade()">ARCADE</li>
+                    </Ul>
+                </li>
+                <li class="menu" onclick="Agradecimento()">AGRADECIMENTOS</li>
+                <li class="menu" id="buttongames">GAMES TEMATICOS
+                    <Ul class="submenu">
+                        <li class="opcao" onclick="GuerraNaEstrelas()">GUERRA NAS ESTRELAS</li>
+                        <li class="opcao" onclick="AjudeChewbacca()">AJUDE CHEWBACCA</li>
+                    </Ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="backheader">
+                <h3 class="sombra">OBRIGADO</h3>
+                <h1 class="sombra">PADAWAN!</h1>
+                <h5 class="sombra">a tripulação agradece a sua visita.</h5>
+            </div>
+            <img class="imagemfundo" src="/Objetos/Imagens/Imagemsenario10.jpg">
+        </div>
+        <div class="caixatext">
+            <h5>AGRADECIMENTOS</h5>
+            <p>Gostaríamos de agradecer imensamente à UNIFecaf pela oportunidade de participar da EXPO TECH 2025/1 e
+                por
+                todo o suporte oferecido durante o desenvolvimento deste projeto.
+                <BR>
+                Agradecemos também a todos os professores, coordenadores e colaboradores que, de alguma forma,
+                contribuíram com orientações, apoio técnico e incentivo ao longo dessa jornada. Sem o conhecimento
+                compartilhado e o comprometimento de cada um, este projeto não teria alcançado o resultado esperado.
+                <BR>
+                Nosso reconhecimento vai também para todos os colegas de equipe e envolvidos diretamente no projeto,
+                que
+                se dedicaram e trabalharam em conjunto para tornar essa ideia possível, superando desafios e
+                aprendendo
+                a cada etapa.
+                <BR>
+                Por fim, nosso sincero agradecimento a todos que compareceram à EXPO TECH 2025/1 e prestigiaram os
+                projetos apresentados. A presença de cada um foi essencial para tornar este evento ainda mais
+                especial e
+                enriquecedor.
+                <BR>
+                Muito obrigado!
+            </p>
+            <div class="galeria">
+                <img src="Objetos/Imagens/Agradecimentos/Unifecaf.jpg">
+                <img src="Objetos/Imagens/Agradecimentos/Rodrigo.png">
+                <img src="Objetos/Imagens/Agradecimentos/Nilvan.png">
+                <img src="Objetos/Imagens/Agradecimentos/Robinson.png">
+                <img src="Objetos/Imagens/Agradecimentos/Robson0.png">
+                <img src="Objetos/Imagens/Agradecimentos/equipe.jpg">
+            </div>
+            <footer>
+                <div id="modal" class="modal" style="display:none;">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img id="imagemExpandida" src="" alt="Imagem expandida">
+                        <p id="mensagemImagem">Texto da imagem aqui...</p>
+                    </div>
+                </div>
+                <p>@2025 Projeto Estrela da Morte - todos os direitos reservados</p>
+            </footer>
+    </main>
+
+</body>
+<script src="Script.js"></script>
+<script src="Script2.js"></script>
+
+</html>

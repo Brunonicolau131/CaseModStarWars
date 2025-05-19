@@ -1,0 +1,408 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+ /*------------------Geral------------------*/
+body {
+    background-color: black;
+    user-select: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding-bottom: 5px;
+    font-family: roboto;
+}
+
+li{list-style: none;
+
+}
+
+h3 {
+    font-size: 100pt; 
+    font-family: star;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+h1 {
+    font-size: 105pt;
+    font-family: starjhol;
+    margin-top: 0;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 20pt;
+    font-family: Starw;
+}
+
+p {
+    font-family: roboto;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    border-top: 2px solid white;
+    margin-top: 85px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+ /* ----------------Class global -------------*/
+.contheader {
+    display: flex;
+    justify-content: center;
+}
+
+.colocaremlinha{
+    display: inline-flex;
+}
+
+.backheader{
+    padding-top: 10% ;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+    height: 100vh;    
+}
+
+.imagemfundo {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.sombra {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), -2px -2px 5px rgba(0, 0, 0, 0.8);
+}
+/*----------navegaçao-----------*/
+.menumobile{
+    display: none;
+}
+.menu {
+    margin: 0px 15px;
+    padding: 2px 10px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.menu:hover {
+    margin: 0px 15px;
+    background-color: #b1b1b146;
+    padding: 2px 10px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.menu:hover .submenu{
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: 	rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    padding: 0px; 
+    width: 100%;
+}
+
+.opcao{
+    padding: 8px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0,6);
+    color: rgb(255, 255, 255);
+}
+
+.opcao:hover{
+    background-color: rgba(0, 0, 0, 0,6);
+    color: rgb(255, 0, 0);
+}
+
+#navul {
+    margin-top: 25px;
+}
+
+
+#navul #buttongames {
+    margin-left: 100px;
+}
+
+/*----------------seção 2---------------------*/
+.caixatext {
+    margin: 1% 15% 2% 15%;
+    text-align: justify;
+}
+
+.caixatext h5 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*---------------carrosel----------------*/
+
+.fiximg {
+    margin-top: 5%;
+    position: relative;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.imgc {
+    width: 250px;
+    height: 250px; 
+    border-radius: 50px;
+    backface-visibility: hidden;
+    transition: 1s ease;
+    position: relative;
+    object-fit: cover;
+ 
+}
+
+.imgc:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.Conhcerprojetobutton {
+    margin-top: 40px;
+}
+
+.Conhcerprojetobutton h5 {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 15px;
+    transition: 1s ease;
+
+}
+
+.Conhcerprojetobutton h5:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+/*--------------------equipe--------------------------*/
+.fontmembro li{
+    font-size: 120%;
+    font-family: roboto;
+
+}
+
+/*--------------------------Font--------------------------*/
+@font-face {
+    font-family: starjhol;
+    src: url(/Objetos/Font/font_star_jedi/starjedi/Starjhol.ttf);
+}
+
+@font-face {
+    font-family: Star;
+    src: url(/Objetos/Font/Maximum\ Voltage.otf);
+}
+
+@font-face {
+    font-family: Starw;
+    src: url(/Objetos/Font/Heavitas.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/Objetos/Font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+.tela-jogo {
+    width: 1000px;
+    height: 600px;
+    background-color: #1a1a1a;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    margin: 40px auto;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.botao-jogar {
+    background-color: #ffd700;
+    color: #000;
+    font-size: 1.5em;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: transform 0.2s ease;
+}
+
+.botao-jogar:hover {
+    background-color: #ffc400;
+    transform: scale(1.05);
+}
+
+iframe {
+    width: 1000px;
+    height: 600px;
+    border: none;
+    border-radius: 12px;
+}
+
+.tela-jogo iframe {
+    width: 1000px;
+    height: 600px;
+    border: none;
+    border-radius: 12px;
+    display: block;
+  }
+  
+  
+  /*------------------------------------responsividade-----------------------------------------*/
+
+@media screen and (max-width: 768px) {
+    .menumobile {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .submenu {
+        position: relative;
+    }
+
+    .contheader {
+        display: none;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .contheader ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .contheader li {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contheader.active {
+        display: flex;
+    }
+    header {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 32pt;
+    }
+
+    h3 {
+        font-size: 40pt;
+    }
+
+    h5 {
+        font-size: 10pt;
+       
+    }
+
+    .menu {
+        padding: 5px;
+        font-size: 14pt;
+    }
+
+    #navul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navul #buttongames {
+        margin-left: 0;
+    }
+
+    .fiximg {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imgc {
+        width: 90%; 
+        max-width: 250px;
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .caixatext {
+        margin: 5%;
+        font-size: 14px;
+    }
+
+    .backheader{
+        margin-top: 40%;
+    }
+
+    footer {
+        font-size: 12px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .Conhcerprojetobutton {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #buttongames{
+        display: none;
+    }
+
+    .Conhcerprojetobutton h5 {
+        font-size: 14pt;
+        padding: 10px;
+    }
+
+    .caixatext {
+        margin-top: 0px;
+    }
+
+    p {
+         word-wrap: break-word;
+         hyphens: auto;
+
+    }
+
+}

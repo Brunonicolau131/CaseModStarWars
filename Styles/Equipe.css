@@ -1,0 +1,53 @@
+.contmenbro {
+    display: inline-flex;
+    background-color: white; 
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px;
+    align-items: center;
+    background-position: center;
+}
+
+.fotomembro {
+    width: 250px;
+    border-radius: 15px;
+    height: auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.fontmembro {
+    margin-left: 30px;
+}
+
+.contmenbro{
+    margin-top: 35px;
+    transition: 3s ease;
+}
+
+.contmenbro:hover{
+    z-index: 1;
+    transform:scale(1.1);
+    background-position: bottom;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contmenbro {
+        width: 100%; 
+        height: 100%;
+        display: block;
+        align-items: center;
+    }
+
+    .membrofoto {
+        width: 100%;
+        height: auto;
+    }
+
+    .membrodados {
+        font-size: 14px;
+    }
+}
+
+
