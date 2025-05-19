@@ -1,6 +1,7 @@
 CaseModStarWars
 
-![Imagem do site](./Objetos/Prints/1.png)
+![Image](https://github.com/user-attachments/assets/4b988a13-0a32-458b-920c-27544b6a6bf6)
+
 
 Bem-vindo ao CaseModStarWars, um site dedicado aos fãs e entusiastas do universo Star Wars, criado com foco acadêmico e educacional. Este projeto reúne informações, imagens, jogos e conteúdos interativos que exploram temas e personagens da famosa saga.
 
@@ -12,7 +13,6 @@ Páginas interativas com jogos inspirados na saga.
 O site foi desenvolvido utilizando HTML, CSS e JavaScript, com uma estrutura organizada para facilitar a navegação e a experiência do usuário.
 
 Visualização
-
-![Imagem do site](./Objetos/Prints/1.png)
-![Imagem do site](./Objetos/Prints/2.png)
-![Imagem do site](./Objetos/Prints/3.png)
+![Image](https://github.com/user-attachments/assets/4b988a13-0a32-458b-920c-27544b6a6bf6)
+![Image](https://github.com/user-attachments/assets/81ef4ac9-600e-45ae-97fc-13814b070436)
+![Image](https://github.com/user-attachments/assets/45cef451-e12b-4b3b-9d0d-5022732b900f)
