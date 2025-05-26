@@ -25,7 +25,7 @@
     gap: 20px;
     color: white;
     border-radius: 12px;
-    background-image: url("/Objetos/Imagens/Imagemsenario3.jpg"); 
+    background-image: url("Objetos/Imagens/Imagemsenario3.jpg"); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
