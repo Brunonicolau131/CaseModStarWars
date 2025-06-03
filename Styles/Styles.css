@@ -1,4 +1,4 @@
-* {
+﻿* {
     padding: 0px;
     margin: 0px;
     color: white;
@@ -212,23 +212,23 @@ footer {
 
 /*--------------------------Font--------------------------*/
 @font-face {
-    font-family: starjhol;
-    src: url(/Objetos/Font/font_star_jedi/starjedi/Starjhol.ttf);
+    font-family: 'starjhol';
+    src: url('/CaseModStarWars/Objetos/Font/font_star_jedi/starjedi/Starjhol.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: Star;
-    src: url(/Objetos/Font/Maximum\ Voltage.otf);
+    font-family: 'Star';
+    src: url('/CaseModStarWars/Objetos/Font/MaximumVoltage.otf') format('opentype');
 }
 
 @font-face {
-    font-family: Starw;
-    src: url(/Objetos/Font/Heavitas.ttf);
+    font-family: 'Starw';
+    src: url('/CaseModStarWars/Objetos/Font/Heavitas.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: roboto;
-    src: url(/Objetos/Font/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+    font-family: 'roboto';
+    src: url('/CaseModStarWars/Objetos/Font/Roboto/Roboto-VariableFont_wdthwght.ttf') format('truetype');
 }
 
 .tela-jogo {
